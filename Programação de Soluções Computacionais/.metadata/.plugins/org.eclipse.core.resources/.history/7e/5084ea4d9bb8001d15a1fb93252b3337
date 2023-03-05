@@ -1,0 +1,19 @@
+package Atividade1;
+
+import java.util.Scanner;
+
+public class Atividades {
+  public static void main(String[] args) {
+    Scanner scanner = new Scanner(System.in);
+
+    System.out.print("Digite um número inteiro: ");
+    int numInt = scanner.nextInt();
+
+    System.out.println("O número digitado foi: " + numInt);
+    
+    System.out.print("Digite um número real: ");
+    double numReal = scanner.nextDouble();
+
+    System.out.println("O número digitado foi: " + numReal);
+  }
+}

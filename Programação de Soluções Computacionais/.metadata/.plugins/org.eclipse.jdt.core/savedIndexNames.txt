@@ -1,0 +1,4 @@
+INDEX VERSION 1.131+Z:\_Anhembi\Workspace\Programação de Soluções Computacionais\.metadata\.plugins\org.eclipse.jdt.core
+1865797976.index
+1973535141.index
+90848358.index
