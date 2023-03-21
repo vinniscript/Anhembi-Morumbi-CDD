@@ -1,0 +1,20 @@
+package Atividade1;
+
+import java.util.Scanner;
+
+public class testes {
+
+	public static void main(String[] args) {
+
+Scanner scanner = new Scanner (System.in);
+		
+System.out.print("Insira uma temperatura em Celsius: ");
+double celso = scanner.nextDouble();
+double calculo = (celso * 1.8) + 32;
+String farenheint = String.format("%.2f", calculo);
+System.out.printf("%.0f%s°C ,", "%.2f%s°F.", celso, calculo);
+
+
+	}
+
+}
