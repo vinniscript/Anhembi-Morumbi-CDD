@@ -1,8 +1,8 @@
-package atividades1st;
+package atvcondicionais;
 
 import java.util.Scanner;
 
-public class atvPesoIdeal {
+public class atvPesoIdealHM {
 
     public static void main(String[] args) {
 
@@ -33,6 +33,7 @@ public class atvPesoIdeal {
         altura = teclado.nextFloat();
 
         // Metodo convencional
+        
 //        if (sexo.equalsIgnoreCase("m") || sexo.equalsIgnoreCase("f")) {
 //            if (sexo.equals("m")) {
 //                pesoIdeal = (72.7f * altura) - 58; //Quando ta usando um float, tem que colocar o 'f' depois de um numero decimal.
@@ -42,6 +43,7 @@ public class atvPesoIdeal {
 //                System.out.printf("O peso ideal F, é: %.2f", pesoIdeal);
 //            }
 //        }
+
         // Switch e case
         
         switch(sexo.charAt(0)){ // o chatAt() Pega a primeira letra do que foi passado quando questionado sobre o sexo.
@@ -49,14 +51,14 @@ public class atvPesoIdeal {
             case 'M': 
                 
                 pesoIdeal = (72.7f * altura) - 58; //Quando ta usando um float, tem que colocar o 'f' depois de um numero decimal.
-                System.out.printf("o Peso ideal M, é: %.2f", pesoIdeal);
+                System.out.printf("o Peso ideal M, equivale: %.2f\n", pesoIdeal);
                 
                 break; // Sempre utilizar o break, se não código abaixo continuará a ser executado, deixando o output (resultado do código) muito confuso.
             
             case 'F': 
                 
                pesoIdeal = (62.1f * altura) - 44.7f;
-                System.out.printf("O peso ideal F, é: %.2f", pesoIdeal);
+                System.out.printf("O peso ideal F, equivale: %.2f\n", pesoIdeal);
                 
                 break;
                 
