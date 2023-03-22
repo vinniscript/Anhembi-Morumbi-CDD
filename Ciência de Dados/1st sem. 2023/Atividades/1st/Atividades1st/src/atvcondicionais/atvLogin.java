@@ -22,16 +22,18 @@ public class atvLogin {
         int tentativasSenha = 3;
 
         for (int i = 0; i <= 10; i++) {
-
+            
+            // checagem se usuários.
+            
             System.out.print("Redigite seu usuario: \n\n");
-            tryUser = kb.nextLine();
+            tryUser = kb.nextLine(); // Chamada tardío da variável.
             if (tryUser.equals(user)) {
 
                 System.out.printf("Bem-vindo, %s, insira sua senha: ", user);
                 tryPass = kb.nextLine();
                 if (tryPass.equals(pass)) {
                     System.out.println("Login realizado.");
-                    break;
+                    break; // Lembrar de quebrar o código.
                 } else {
                     --tentativasLogin;
                     System.out.printf("Senha incorreta. Te restam %d tentativa(s) restantes.\n\n", tentativasLogin);
@@ -40,13 +42,14 @@ public class atvLogin {
                 --tentativasSenha;
                 System.out.printf("Login incorreto. Te restam %d tentativa(s) restantes.\n\n", tentativasSenha);
             }
-            if (tentativasLogin == 0 || tentativasSenha == 0) {
+            if (tentativasLogin == 0 || tentativasSenha == 0) { 
                 System.out.println("Excedeu o numero de tentativas. Tente novamente.");
                 break;
             }
             if (i == 10) { // Matar o programa
                 System.out.println("Tentativas de execução de software excedido.");
                 break;
+                
             }
         }
         kb.close(); // Fechar o Scanner
