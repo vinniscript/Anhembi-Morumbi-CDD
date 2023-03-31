@@ -7,33 +7,24 @@ public class atvMediadeVariosNum {
 
     public static void main(String[] args) {
         Scanner kb = new Scanner(System.in);
-        int notas, i = 1, acumulador, media = acumulador / (i);
 
-        System.out.print("Insira ate 10 notas, ou digite '-1' quando acabar: ");
+        int notas, media, acumulador = 0;
 
-        for (; i <= 11; i++) {
+        for (int i = 1; i <= 10; i++) {
+            System.out.printf("Insira até 10 notas ou digite -1 para encerrar a coleta: ");
 
             notas = kb.nextInt();
             acumulador += notas;
-            
+            media = acumulador / i;
+
             if (notas == -1) {
-                System.out.println("Notas documentadas.");
-                media = acumulador / (i - 1);
-                System.out.printf("\n\n MEDIA TOTAL: %d\n\n", media);
+                System.out.println("a média é: " + media);
                 break;
             }
-                if (acumulador <= 10){
-                    
-            System.out.printf("%d nota - %d\n", i, notas);
-
-            acumulador += notas;
-            
-
-            } else {
-                    
-                System.out.printf("\n\n MEDIA TOTAL: %d\n\n", media);
-                
-                }
+            if (i == 10){
+                System.out.println("a média é: " + media);
+            }
         }
+
     }
 }

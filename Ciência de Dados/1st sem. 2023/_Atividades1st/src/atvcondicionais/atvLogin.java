@@ -10,7 +10,7 @@ public class atvLogin {
         Scanner kb = new Scanner(System.in);
 
         System.out.print("Cadastre seu usuario: ");
-        String user = kb.nextLine();
+        String user = kb.nextLine().toLowerCase();
 
         System.out.print("\nCadastre sua senha: ");
         String pass = kb.nextLine();
@@ -26,7 +26,7 @@ public class atvLogin {
             // checagem se usuários.
             
             System.out.print("Redigite seu usuario: \n\n");
-            tryUser = kb.nextLine(); // Chamada tardío da variável.
+            tryUser = kb.nextLine().toLowerCase(); // Chamada tardío da variável.
             if (tryUser.equals(user)) {
 
                 System.out.printf("Bem-vindo, %s, insira sua senha: ", user);
