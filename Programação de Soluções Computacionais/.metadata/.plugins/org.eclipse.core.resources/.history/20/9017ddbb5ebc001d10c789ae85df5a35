@@ -1,0 +1,26 @@
+package Atividade1;
+
+import java.util.Scanner;
+import java.text.DecimalFormat;
+import java.text.DecimalFormatSymbols;
+import java.util.Locale;
+
+public class testes {
+
+	public static void main(String[] args) {
+
+
+Scanner scanner = new Scanner (System.in);
+
+// Antecessor do número escolhido
+
+System.out.print("Digite um número: ");
+int num = scanner.nextInt();
+
+int antecessor = num - 1;
+
+System.out.println("O antecessor de " + num + " é " + antecessor);
+
+	}
+
+}
