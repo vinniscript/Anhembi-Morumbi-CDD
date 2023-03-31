@@ -5,26 +5,19 @@ import java.util.Scanner;
 public class atvMediaWhile {
 
     public static void main(String[] args) {
-        int notas, media, acumulador = 0, contagem = 0;
+        int contagem = 0;
+        double nota = 0;
+
         Scanner kb = new Scanner(System.in);
 
-        do {
-
-            System.out.print("Insira suas notas ou insira -1 estiver satisfeito: ");
-
-            notas = kb.nextInt();
-            acumulador += notas;
+        while (contagem < 3) {
+            System.out.printf("Nota %d: ", contagem + 1);
+            nota += kb.nextDouble();
             contagem++;
-
-            if (notas == -1) {
-                media = acumulador / contagem;
-                System.out.println(media);
-                break;
-            }
-
-        } while (contagem <= 10);
-        media = acumulador / contagem;
-        System.out.println(media);
+        }
+        System.out.printf("Media: %.2f.", nota / contagem);
     }
 
 }
+
+// Depois tentar fazer com o do também...
