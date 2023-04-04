@@ -1,11 +1,11 @@
 /*
  * retorne o caractere UNICODE.
  */
-package aula0603;
+package aulas;
 
 import java.util.Scanner;
 
-public class Exemplo4 {
+public class Unicode {
     public static void main(String[] args) {
     
         int a = 1;

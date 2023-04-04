@@ -1,9 +1,9 @@
 
-package aula0603;
+package aulas;
 
 
 
-public class Exemplo6 {
+public class TiposNum {
     public static void main(String[] args) {
         System.out.println(9/5); // Você esta lidando com inteiros, mas a resposta não trará um inteiro.
         // O casting funciona diferente agora.

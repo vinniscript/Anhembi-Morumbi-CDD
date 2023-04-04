@@ -1,11 +1,11 @@
 /*
  * Programa que printa um inteiro na tela
  */
-package aula0603;
+package aulas;
 
 import java.util.Scanner;
 
-public class Exemplo02 {
+public class scanner {
     public static void main(String[] args) {
         Scanner kb = new Scanner(System.in);
         int numero;
