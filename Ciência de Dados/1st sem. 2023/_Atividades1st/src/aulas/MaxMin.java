@@ -1,6 +1,6 @@
-package aula0603;
+package aulas;
 
-public class Exemplo3 {
+public class MaxMin {
     public static void main(String[] args){
             int minimo, maximo;
             

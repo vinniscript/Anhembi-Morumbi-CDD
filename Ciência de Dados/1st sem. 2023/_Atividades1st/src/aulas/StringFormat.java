@@ -1,13 +1,13 @@
 // Criação de projetos seguem um padrão de qualidade. Todas as primeiras letras de palavras são maiusculas, como "FuncaoCalculadora", por exemplo, e não "funcaocalculadora". Isso é necessário
 // Packages são letras minúsculas apenas = "funcoesdacalc"
 
-package aula0603;
+package aulas;
 
 // Aqui que você importa as APIs
 
 import java.util.Scanner;  // Fica laranja para avisar que você está importando algo que não está usando, quando você criar um método no código, que chama a biblioteca, o laranja sublinhado some.
 
-public class Exemplo1 {
+public class StringFormat {
     public static void main(String[] args) {
       //System.out.print("Hello World \n");
         System.out.println("Hello World!");
