@@ -22,21 +22,19 @@ public class vetorIdades {
         System.out.println("Digite as idades: ");
 
         while (loop) {
-            idade = scanner.nextInt();
 
+            idade = scanner.nextInt();
             idades[i] = idade;
-            
-            ++i;
-            
-            if (i < idades.length) {
+
+            if (i < idades.length - 1) {
+                i++;
             } else {
                 loop = false;
             }
-            
-            for (i ; )
 
         }
 
+//        for (i; )
     }
 }
 

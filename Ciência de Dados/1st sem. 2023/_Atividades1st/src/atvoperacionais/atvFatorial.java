@@ -1,4 +1,4 @@
-package atividades;
+package atvoperacionais;
 
 import java.util.Scanner;
 
