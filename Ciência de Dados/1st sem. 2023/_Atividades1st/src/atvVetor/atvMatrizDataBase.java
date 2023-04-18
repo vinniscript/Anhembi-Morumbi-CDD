@@ -12,7 +12,7 @@ o vendedor não ganha bônus e,não bateu a meta.
 
 package atvVetor;
 
-public class bancoDados {
+public class atvMatrizDataBase {
 
     public static void main(String[] args) {
 

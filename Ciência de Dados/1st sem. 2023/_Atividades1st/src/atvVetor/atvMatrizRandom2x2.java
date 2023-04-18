@@ -2,7 +2,7 @@ package atvVetor;
 
 import java.util.Random;
 
-public class matrix2x2 {
+public class atvMatrizRandom2x2 {
 
     public static void main(String[] args) {
         Random random = new Random();

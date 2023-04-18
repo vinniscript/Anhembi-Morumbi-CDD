@@ -1,5 +1,6 @@
 
 package atvVetor;
+
 import java.util.Scanner;
 
 public class atvVetorMediaMediana {
@@ -54,10 +55,10 @@ public class atvVetorMediaMediana {
         int length = vetor.length; // para evitar chamadas repitidas.
 
         if (vetor.length % 2 == 0) {
-            mediana = (vetor[vetor.length /2 - 1]) + (vetor[vetor.length / 2]) / 2; // pega o valor total do vetor, e divide o resultado indenpendente de qual por 2, o -1 é usado para o primeiro a esquerda do resultado e podermos calcular ambas as metades.
+            mediana = (vetor[vetor.length / 2 - 1]) + (vetor[vetor.length / 2]) / 2; // pega o valor total do vetor, e divide o resultado indenpendente de qual por 2, o -1 é usado para o primeiro a esquerda do resultado e podermos calcular ambas as metades.
             System.out.printf("Como o numéro é par, devemos pegar a metade inferior: %d, e a metade superior: %d + a média entre elas.\n", (vetor.length / 2 - 1), (vetor[vetor.length / 2]));
-        } else{
-            mediana = (vetor[vetor.length /2]);
+        } else {
+            mediana = (vetor[vetor.length / 2]);
             System.out.println("Como o número é impar, basta pegar o indice do meio, ele representa a mediana.");
         }
 

@@ -1,6 +1,5 @@
 package atvvetor;
 
-import java.util.Arrays;
 import java.util.Random;
 import java.util.Scanner;
 
@@ -10,7 +9,7 @@ Criar um programa com 2 matrizes 3x3, o usuário define a primeira matriz, a seg
 retorne a matriz soma.
 
  */
-public class atvMatriz3x3 { // Matriz promptada
+public class atvSomaMatriz3x3 { // Matriz promptada
 
     public static void main(String[] args) {
         int matriz1[][] = new int[3][3];
