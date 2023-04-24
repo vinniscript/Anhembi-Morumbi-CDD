@@ -1,0 +1,325 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="ad3f77c6-6372-4460-9e12-54b94f18503a" name="Changes" comment="Refatorando nomes e deixando mais legível.">
+      <change beforePath="$PROJECT_DIR$/../../../.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../../../.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/Aulas/Farenheint.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/Aulas/MaxMin.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/Aulas/StringFormat.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/Aulas/TiposNum.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/Aulas/Unicode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/Aulas/Vetor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/Aulas/doWhile.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/Aulas/scanner.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/Aulas/whileDo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/Aulas/whileOnly.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/_Atividades1st1.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/atividades/atvContagem.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/atividades/atvFatorial.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/atvVetor/atvForReach.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/atvVetor/atvMatriz.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/atvVetor/atvMatriz3x3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/atvVetor/atvMatriz3x3Melhor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/atvVetor/atvVetor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/atvVetor/atvVetorMediaMediana.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/atvVetor/bancoDados.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/atvVetor/matrix2x2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/atvVetor/vetorIdades.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/atvcondicionais/atvDivisiveis.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/atvcondicionais/atvJoaoPesoPena.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/atvcondicionais/atvLogin.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/atvcondicionais/atvMediaWhile.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/atvcondicionais/atvMediadeVariosNum.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/atvcondicionais/atvMenosScanner.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/atvcondicionais/atvPares.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/atvcondicionais/atvPesoIdealHM.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/atvcondicionais/atvVetor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/atvcondicionais/atvqtndParImpar.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/atvoperacionais/MaiorMenor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/atvoperacionais/PositivoParImpar.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/atvoperacionais/VivoMorto.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/atvoperacionais/eOu.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/aula1603/SalarioLiquido.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/projetos/NewClass.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/projetos/exJogo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/projetos/testeinfinito.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/projetos/txtJava.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/Atividades1st.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/README.TXT" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/javadoc/allclasses-index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/javadoc/allpackages-index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/javadoc/atividades/atvContagem.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/javadoc/atividades/atvFatorial.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/javadoc/atividades/class-use/atvContagem.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/javadoc/atividades/class-use/atvFatorial.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/javadoc/atividades/package-summary.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/javadoc/atividades/package-tree.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/javadoc/atividades/package-use.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/javadoc/atvVetor/atvVetor.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/javadoc/atvVetor/class-use/atvVetor.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/javadoc/atvVetor/class-use/matrix2x2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/javadoc/atvVetor/class-use/vetorIdades.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/javadoc/atvVetor/matrix2x2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/javadoc/atvVetor/package-summary.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/javadoc/atvVetor/package-tree.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/javadoc/atvVetor/package-use.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/javadoc/atvVetor/vetorIdades.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/javadoc/atvcondicionais/atvDivisiveis.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/javadoc/atvcondicionais/atvJoaoPesoPena.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/javadoc/atvcondicionais/atvLogin.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/javadoc/atvcondicionais/atvMediaWhile.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/javadoc/atvcondicionais/atvMediadeVariosNum.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/javadoc/atvcondicionais/atvMenosScanner.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/javadoc/atvcondicionais/atvPares.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/javadoc/atvcondicionais/atvPesoIdealHM.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/javadoc/atvcondicionais/atvVetor.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/javadoc/atvcondicionais/atvqtndParImpar.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/javadoc/atvcondicionais/class-use/atvDivisiveis.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/javadoc/atvcondicionais/class-use/atvJoaoPesoPena.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/javadoc/atvcondicionais/class-use/atvLogin.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/javadoc/atvcondicionais/class-use/atvMediaWhile.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/javadoc/atvcondicionais/class-use/atvMediadeVariosNum.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/javadoc/atvcondicionais/class-use/atvMenosScanner.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/javadoc/atvcondicionais/class-use/atvPares.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/javadoc/atvcondicionais/class-use/atvPesoIdealHM.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/javadoc/atvcondicionais/class-use/atvVetor.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/javadoc/atvcondicionais/class-use/atvqtndParImpar.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/javadoc/atvcondicionais/package-summary.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/javadoc/atvcondicionais/package-tree.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/javadoc/atvcondicionais/package-use.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/javadoc/atvoperacionais/MaiorMenor.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/javadoc/atvoperacionais/PositivoParImpar.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/javadoc/atvoperacionais/VivoMorto.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/javadoc/atvoperacionais/class-use/MaiorMenor.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/javadoc/atvoperacionais/class-use/PositivoParImpar.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/javadoc/atvoperacionais/class-use/VivoMorto.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/javadoc/atvoperacionais/class-use/eOu.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/javadoc/atvoperacionais/eOu.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/javadoc/atvoperacionais/package-summary.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/javadoc/atvoperacionais/package-tree.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/javadoc/atvoperacionais/package-use.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/javadoc/aula1603/SalarioLiquido.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/javadoc/aula1603/class-use/SalarioLiquido.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/javadoc/aula1603/package-summary.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/javadoc/aula1603/package-tree.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/javadoc/aula1603/package-use.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/javadoc/aulas/Farenheint.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/javadoc/aulas/MaxMin.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/javadoc/aulas/StringFormat.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/javadoc/aulas/TiposNum.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/javadoc/aulas/Unicode.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/javadoc/aulas/Vetor.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/javadoc/aulas/class-use/Farenheint.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/javadoc/aulas/class-use/MaxMin.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/javadoc/aulas/class-use/StringFormat.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/javadoc/aulas/class-use/TiposNum.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/javadoc/aulas/class-use/Unicode.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/javadoc/aulas/class-use/Vetor.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/javadoc/aulas/class-use/doWhile.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/javadoc/aulas/class-use/scanner.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/javadoc/aulas/class-use/whileDo.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/javadoc/aulas/class-use/whileOnly.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/javadoc/aulas/doWhile.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/javadoc/aulas/package-summary.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/javadoc/aulas/package-tree.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/javadoc/aulas/package-use.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/javadoc/aulas/scanner.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/javadoc/aulas/whileDo.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/javadoc/aulas/whileOnly.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/javadoc/copy.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/javadoc/element-list" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/javadoc/help-doc.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/javadoc/index-files/index-1.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/javadoc/index-files/index-10.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/javadoc/index-files/index-11.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/javadoc/index-files/index-2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/javadoc/index-files/index-3.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/javadoc/index-files/index-4.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/javadoc/index-files/index-5.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/javadoc/index-files/index-6.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/javadoc/index-files/index-7.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/javadoc/index-files/index-8.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/javadoc/index-files/index-9.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/javadoc/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/javadoc/jquery-ui.overrides.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/javadoc/legal/COPYRIGHT" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/javadoc/legal/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/javadoc/legal/jquery.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/javadoc/legal/jqueryUI.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/javadoc/member-search-index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/javadoc/module-search-index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/javadoc/overview-summary.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/javadoc/overview-tree.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/javadoc/package-search-index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/javadoc/projetos/class-use/testeinfinito.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/javadoc/projetos/class-use/txtJava.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/javadoc/projetos/package-summary.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/javadoc/projetos/package-tree.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/javadoc/projetos/package-use.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/javadoc/projetos/testeinfinito.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/javadoc/projetos/txtJava.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/javadoc/resources/glass.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/javadoc/resources/x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/javadoc/script-dir/jquery-3.6.0.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/javadoc/script-dir/jquery-ui.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/javadoc/script-dir/jquery-ui.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/javadoc/script.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/javadoc/search-page.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/javadoc/search.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/javadoc/search.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/javadoc/stylesheet.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/javadoc/tag-search-index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/javadoc/type-search-index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nbproject/build-impl.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nbproject/genfiles.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nbproject/private/private.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nbproject/private/private.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nbproject/project.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nbproject/project.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/_Atividades1st/_Atividades1st1.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/_Atividades1st/atividades/atvContagem.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/_Atividades1st/atvVetor/atvForReach.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/_Atividades1st/atvVetor/atvMatriz.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/_Atividades1st/atvVetor/atvMatriz3x3Melhor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/_Atividades1st/atvVetor/atvMatrizDataBase.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/_Atividades1st/atvVetor/atvMatrizRandom2x2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/_Atividades1st/atvVetor/atvSomaMatriz3x3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/_Atividades1st/atvVetor/atvVetorMediaMediana.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/_Atividades1st/atvclasses/atvCalculadora.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/_Atividades1st/atvclasses/atvEntradaSoma.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/_Atividades1st/atvclasses/atvMaiorMenor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/_Atividades1st/atvcondicionais/atvDivisiveis.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/_Atividades1st/atvcondicionais/atvJoaoPesoPena.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/_Atividades1st/atvcondicionais/atvLogin.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/_Atividades1st/atvcondicionais/atvMediaWhile.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/_Atividades1st/atvcondicionais/atvMediadeVariosNum.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/_Atividades1st/atvcondicionais/atvMenosScanner.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/_Atividades1st/atvcondicionais/atvPares.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/_Atividades1st/atvcondicionais/atvPesoIdealHM.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/_Atividades1st/atvcondicionais/atvqtndParImpar.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/_Atividades1st/atvoperacionais/MaiorMenor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/_Atividades1st/atvoperacionais/PositivoParImpar.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/_Atividades1st/atvoperacionais/VivoMorto.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/_Atividades1st/atvoperacionais/atvFatorial.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/_Atividades1st/atvoperacionais/eOu.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/_Atividades1st/aula1603/SalarioLiquido.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/_Atividades1st/aulas/Farenheint.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/_Atividades1st/aulas/MaxMin.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/_Atividades1st/aulas/StringFormat.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/_Atividades1st/aulas/TiposNum.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/_Atividades1st/aulas/Unicode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/_Atividades1st/aulas/Vetor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/_Atividades1st/aulas/doWhile.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/_Atividades1st/aulas/scanner.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/_Atividades1st/aulas/whileDo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/_Atividades1st/aulas/whileOnly.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/atvclasses/atvMaiorMenor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/atvclasses/atvMaiorMenor.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="ProjectId" id="2OIb4Pw0Fa9P4oTpTO4ZcohZWZI" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;ignore.preview.features.used&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;Z:/_Anhembi/Workspace/Ciência de Dados/1st sem. 2023/_Atividades1st/src&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.ide.settings.file-colors&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ad3f77c6-6372-4460-9e12-54b94f18503a" name="Changes" comment="" />
+      <created>1681250851736</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1681250851736</updated>
+      <workItem from="1681250853345" duration="520000" />
+      <workItem from="1681263738865" duration="396000" />
+      <workItem from="1681310367635" duration="715000" />
+      <workItem from="1681314137197" duration="4000" />
+      <workItem from="1681314704134" duration="467000" />
+      <workItem from="1681334672983" duration="4755000" />
+      <workItem from="1681596433034" duration="845000" />
+      <workItem from="1681597857127" duration="329000" />
+      <workItem from="1681598306610" duration="5250000" />
+      <workItem from="1681848930222" duration="4012000" />
+      <workItem from="1682265058034" duration="453000" />
+      <workItem from="1682265592972" duration="704000" />
+      <workItem from="1682277218630" duration="5000" />
+      <workItem from="1682284090252" duration="22000" />
+      <workItem from="1682284128008" duration="5313000" />
+      <workItem from="1682303214596" duration="2371000" />
+    </task>
+    <task id="LOCAL-00001" summary="Atividade de classes, Entrada e soma.">
+      <created>1681851711481</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1681851711481</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Refatorando nomes e deixando mais legível.">
+      <created>1681852626614</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1681852626614</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Atividade de classes, Entrada e soma." />
+    <MESSAGE value="Refatorando nomes e deixando mais legível." />
+    <option name="LAST_COMMIT_MESSAGE" value="Refatorando nomes e deixando mais legível." />
+  </component>
+</project>
