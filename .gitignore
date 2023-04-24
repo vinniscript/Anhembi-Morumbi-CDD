@@ -1,9 +1,6 @@
-<<<<<<< HEAD
 /Ciência de Dados/1st sem. 2023/Atividades/Programação de Soluções Computacionais/projetos 1st/Aula01/build/
 /Ciência de Dados/1st sem. 2023/Atividades/Programação de Soluções Computacionais/projetos 1st/Aula01/nbproject/private/
 /Ciência de Dados/1st sem. 2023/Atividades/Programação de Soluções Computacionais/projetos 1st/atividades1st/nbproject/private/
-/Ciência de Dados/1st sem. 2023/Atividades/Programação de Soluções Computacionais/projetos 1st/atividades1st/build/
-=======
 /Ciência de Dados/1st sem. 2023/PSC/JavaApplication1/nbproject/private/
 /Ciência de Dados/1st sem. 2023/PSC/SegundaFeiraNoite/nbproject/private/
 /Ciência de Dados/1st sem. 2023/PSC/SegundaFeiraNoite/build/
@@ -15,7 +12,13 @@
 /Ciência de Dados/1st sem. 2023/Atividades/1st/SegundaFeiraNoite/build/
 /Ciência de Dados/1st sem. 2023/Atividades/1st/SegundaFeiraNoite/dist/
 /Ciência de Dados/1st sem. 2023/Atividades/1st/SegundaFeiraNoite/nbproject/private/
->>>>>>> 141e2dc45ea08f3dd900ef4665d811444355ca14
 /Ciência de Dados/1st sem. 2023/_Atividades1st/projetos/nbproject/private/
 /Ciência de Dados\1st sem. 2023\/.idea
-/Ciência de Dados/1st sem. 2023/_Atividades1st\out
+
+# Ignore everything
+/Ciência de Dados/1st sem. 2023/_Atividades1st\*
+
+# But not these files
+!/Ciência de Dados/1st sem. 2023/_Atividades1st\src
+
+
