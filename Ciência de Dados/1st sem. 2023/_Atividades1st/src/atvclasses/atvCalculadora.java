@@ -2,82 +2,81 @@ package atvclasses;
 
 import java.util.Scanner;
 
-// 3 classes com nome ~area~, cada uma calculará diferentes tipos de operações, são elas: área, retângulo e trapézio.
-// precisa ter uma classe de tela, onde vai trazer as opções de escolha por um char.
-// Tudo precisa ser chamado no main.
-
 public class atvCalculadora {
 
     public static void main(String[] args) {
         Scanner kb = new Scanner(System.in);
-        boolean running = true;
-        tela();
-        while (running) {
-            System.out.println("\nEscolha o calculo que deseja fazer [Q, R, T ou S]: ");
-        String letra = kb.next().toLowerCase();
+        boolean ligado = true;
+        double[] entradas = new double[2];
+        
+        while (ligado) {
+            try {
+                for (int i = 0; i < entradas.length; i++) {
+                    System.out.println("Digite um número: ");
+                    entradas[i] = kb.nextDouble();
+                }
 
+                System.out.println(" OPERAÇÕES: \n"
+                        + "+ PARA SOMAR\n"
+                        + "- PARA SUBTRAIR\n"
+                        + "* PARA MULTIPLICAR\n"
+                        + "/ PARA SUBTRAIR");
 
-            switch (letra.charAt(0)) {
-                case 'q':
-                    System.out.print("Digite o lado do quadrado: ");
-                    int lados = kb.nextInt();
-                    int calcQ = area(lados);
-                    System.out.println("\nÁrea do quadrado: " + calcQ);
-                    break;
+                String operacao = kb.next();
 
-                case 'r':
-                    System.out.print("Digite a base do retângulo: ");
-                    int base = kb.nextInt();
-                    System.out.print("A altura: ");
-                    int altura = kb.nextInt();
+                switch (operacao.charAt(0)) {
+                    case '+':
+                        System.out.println("Resultado: " + soma(entradas[0], entradas[1]));
+                        break;
+                    case '-':
+                        System.out.println("Resultado: " + subtracao(entradas[0], entradas[1]));
+                        break;
+                    case '*':
+                        System.out.println("Resultado: " + multiplicacao(entradas[0], entradas[1]));
+                        break;
+                    case '/':
+                        double div = divisao(entradas[0], entradas[1]);
+                        if (div == Double.MIN_VALUE) {
+                            System.out.println("Não dividirás por 0");
+                        } else {
+                            System.out.println("Resultado: " + div);
+                        }
+                        break;
+                    case 's':
+                        System.out.println("Obrigado.");
+                        ligado = false;
+                    default:
+                        System.out.println("Comando incorreto.");
 
-                    int calcR = area(base, altura);
-
-                    System.out.println(area(calcR));
-                    break;
-                case 't':
-                    String[] vetor = {"Base maior: ", "Base menor: ", "Altura: "};
-
-                    int[] valores = new int[3];
-
-                    for (int i = 0; i < vetor.length; i++) {
-                        System.out.println(vetor[i]);
-                        valores[i] = kb.nextInt();
-                    }
-
-                    System.out.println("Área do trapézio: " + ((valores[0] + valores[1]) * valores[2] / 2));
-                    break;
-                case 's':
-                    System.out.println("Obrigado por usar o programa.");
-                    running = false;
-                default:
-                    System.out.println("Comando inválido.");
+                }
+            } catch (Exception e) {
+                System.out.println("Você deve digitar um número.");
             }
         }
     }
 
-    //Calculos...
-
-    public static int area(int lado) {
-        return lado * lado;
+    public static double soma(double num, double num2) {
+        return num + num2;
     }
 
-    public static int area(int base, int altura) {
-        return base * altura;
+    public static double subtracao(double num, double num2) {
+        return num - num2;
     }
 
-    public static int area(int Bmaior, int Bmenor, int altura) {
-        return (Bmaior + Bmenor) * altura / 2;
+    public static double multiplicacao(double num, double num2) {
+        return num * num2;
+    }
+
+    public static double divisao(double num, double num2) {
+
+        if (verificacao(num)) {
+            num = Double.MIN_VALUE;
+        }
+        return num / num2;
 
     }
 
-    public static void tela() {
-
-        System.out.print("Calculos matemáticos: " +
-                "'Q' para calcular a área de um quadrado\n" +
-                "`R` para calcular a área de um retângulo\n" +
-                "'T` para calcular a área de um trapézio\n" +
-                "'S' para sair do programa.\n");
-
+    public static boolean verificacao(double num) {
+        return num == 0;
     }
 }
