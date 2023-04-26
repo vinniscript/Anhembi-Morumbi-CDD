@@ -1,2 +1,0 @@
-INDEX VERSION 1.131+C:\Users\vinicius_sousa\Documents\_Pessoal\Anhembi Morumbi\Programação de Soluções Computacionais\.metadata\.plugins\org.eclipse.jdt.core
-1865797976.index

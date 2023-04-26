@@ -1,9 +1,0 @@
-/**
- * 
- */
-/**
- * @author Binços
- *
- */
-module ameudeus {
-}
