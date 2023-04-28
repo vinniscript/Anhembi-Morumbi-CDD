@@ -3,32 +3,50 @@ package poo;
 import java.util.Scanner;
 
 public class Principal {
+
     public static void main(String[] args) {
+        // Criação de Objetos
+        Personagem monstro = new Personagem("Goblin", 10, 2);
+
+        System.out.println("Bem-vindo as terras de pindamonhomgaba, qual seu nome? ");
         Scanner kb = new Scanner(System.in);
+        
+        String name = kb.next();
+        
+        Personagem player = new Personagem(name, 30, 3);
 
-        System.out.println("Qual o nome do seu personagem?");
-        String charName = kb.nextLine();
+        player.setDefesa(5);
+        player.setVida(20);
+        monstro.setDefesa(2);
+        monstro.setVida(10);
 
-        Personagem mcvv = new Personagem(charName, 45);
+//        // ALTERANDO OS ATRIBUTOS DO PERSONAGEM
+//        player.nome = "Miguel";
+//        player.vida = 30;
+//        player.defesa = 3;
+//
+//        // ALTERANDO OS ATRIBUTOS DO PERSONAGEM
+//        monstro.vida = 10;
+//        monstro.defesa = 2;
+        System.out.println(player.getNome() + "Está andando numa floresta, "
+                + "quando de repente...");
+        System.out.println("Um " + monstro.getNome() + "sai de trás de um arbusto");
+        System.out.println(player.getNome() + " Se a assusta e começa a correr para atacar.");
 
-        System.out.println("O nome do guerreiro é " + mcvv.getNome());
-        System.out.println("E sua vida " + mcvv.getVida() + "\n");
+        int ataqueMiguel = player.ataque();
+        System.out.println(player.getNome() + " Atacou o " + monstro.getNome() + "com " + ataqueMiguel + " de dano.");
+        System.out.println("Mas, o " + monstro.getNome() + "tem " + monstro.getDefesa() + " de defesa");
 
-        Personagem satanas2 = new Personagem("Satanás 2", 11);
-        System.out.println("Óh não, não pode ser, é o " + satanas2.getNome());
-        System.out.println("Com seus inacreditáveis " + satanas2.getVida() + " Pontos de vida!\n");
+        if (monstro.getVida() <= 0) {
 
-        System.out.println("Vai rolar um combate?\n");
-        System.out.printf("%s vai atacar, hein?... OLHA COMO ELE V... MINHA NOSSAAAAA!! INÁCREDITAAAAAAAAAAAAVEL..\n", mcvv.getNome());
+            System.out.println(player.getNome() + " Matou o " + monstro.getNome());
+            System.out.println("Aí sim");
 
-        System.out.println("-----------------------");
-            System.out.printf("%s Veio porradar com violência o %s.\n\n", mcvv.getNome(), satanas2.getNome());
+        } else {
+            int vidaMonstro = monstro.getVida() - (ataqueMiguel - monstro.getDefesa());
+            monstro.setVida(vidaMonstro);
 
-        while (mcvv.getVida() > 0 || satanas2.getVida() > 0) {
-            mcvv.atacar(satanas2);
-            satanas2.atacar(mcvv);
+            System.out.println("O " + monstro.getNome() + "Ainda tem" + monstro.getVida() + "pontos de vida.");
         }
-        System.out.println("-----------------------");
-        kb.close();
     }
 }
